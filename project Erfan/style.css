@@ -1,0 +1,329 @@
+@import url(./css/grid.css);
+@import url(./css/utility-class.css);
+
+
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.header{
+    height: 35rem;
+    /* background-color: aqua; */
+}
+
+.header__contaier{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0%;
+    padding: 0;
+    height: 30rem;
+
+    
+}
+.container-left{
+    background-color: aqua;
+    background: url('./img/1-left.png') no-repeat;
+}
+.container-right{
+    background-color: aqua;
+    background: url('./img/1-right.png') no-repeat;
+    
+}
+
+.navigation{
+    background-color: #8A0005;
+    display: flex;
+    overflow: hidden;
+}
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    
+}
+.navigation ul li{
+    text-decoration: none;
+    margin: 14px 0px;
+    padding: 11px 29px;
+    text-transform: uppercase;
+    list-style: none;
+    border-left: 3px solid;  
+  color: rgb(255, 255, 255);
+
+
+}
+.navigation ul li:last-child{
+    
+    border-right: 3px solid;   
+}
+
+
+.navigation ul li a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+    
+}
+.logo-nav{
+    display: none;
+}
+
+
+
+                 /* Section 1 start*/
+.section1{
+    box-shadow: .2rem .5rem .3rem rgba(80, 55, 55, 0.685);
+
+}
+
+.grid__left{
+    padding: 1rem 4rem;
+    text-align: center;
+
+
+}
+.grid__left img{
+    text-align: center;
+    margin: 2rem;
+}
+.grid__left p{
+    text-align: left;
+    margin: 1.5rem 0rem;
+}
+.grid__right{
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+
+}
+.grid__right img{
+    height: 29rem;
+    width: 29rem;
+    /* margin-top: 15%; */
+    
+}
+
+
+
+/* Section 1 end*/
+/* Section 2 start */
+.section2{
+    overflow: hidden;
+    box-shadow: .2rem .5rem .3rem rgba(80, 55, 55, 0.685);
+    padding: 2rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.image-box{
+    width: 25%;
+    /* width: 20rem; */
+    /* flex-wrap: wrap; */
+
+}
+.image-box img{
+    width: 98%;
+}
+.image-box img:hover{
+    opacity: .78;
+
+}
+
+/* Section 2 end */
+/* Section 3 OUR TEAm Start */
+
+
+.flex-team .item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-team .item img{
+    margin: 21px;
+}
+
+.sec3-grid img{
+    height: 15rem !important;
+    width: 33rem;
+    border-radius: .2rem;
+    box-shadow: .2rem .5rem 1rem rgba(80, 55, 55, 0.685);
+
+}
+
+
+/* Section 3 end */
+                  /* Section 4 start*/
+.section4{
+    overflow: hidden;
+
+    background-color: aqua;
+}
+.section4-box .text-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text-box img{
+    margin: 10px 10px;
+    border-radius: 2rem;
+    width: 22rem;
+    box-shadow: 0 .5rem 1rem rgba(80, 55, 55, 0.685);
+
+}
+
+
+
+/* Section 4 end */
+/* Section 5 Start */
+
+.section5{
+    /* background-color: beige; */
+    overflow: hidden;
+    border-bottom: 2px solid black;
+
+}
+.section5__contact{
+    display: grid;
+    grid-template-columns: 50%  50%;
+    /* position: relative; */
+    /* position: absolute; */
+
+}
+.contact-left{
+    width: 100%;
+}
+.contact-left img{  
+    /* position: absolute; */
+    width: 100%;
+    height: 70%;
+}
+
+.contact-right{
+    height: 50rem;
+    position: relative;
+}
+.contact-form{
+    /* margin: 7rem; */
+    padding: 6rem;
+    background-color: white;
+    position: absolute;
+    top: -5rem;
+    left: -7rem;
+    box-shadow: 0 .5rem 1rem rgba(80, 55, 55, 0.685);
+    margin-bottom: 0px;
+    padding-bottom: 2rem;
+
+}
+
+.contact-form p , ul li{
+    font-size: 1.2rem;
+    padding: 10px 5px;
+   text-align:left;
+}
+.contact-input{
+    text-align: left;
+    font-size: 1.3rem;
+  
+}
+.contact-input span{
+  
+    margin: 5px 0px;
+    padding: 5px 0px;
+}
+.contact-input input{
+    width: 100%;
+    padding: 7px 0px;
+    margin: 7px 0px;
+    box-shadow: 0 .5rem 4rem rgba(76, 65, 65, 0.571);
+
+}
+.contact-input .submit{
+    display: inline-block;
+    width: 30%;
+}
+
+
+
+
+/* Section 5 end */
+/* Section footer 6 & 7 start*/
+.section6,
+.section7{
+ /* background-color: rgb(99, 96, 96); */
+ background-color: #404040;
+ color: white;
+}
+.grid .first {
+    width:85%; 
+}
+.first img {
+    margin: 25px 34px;
+    width: 90%;
+    height: 40%;
+    padding: 25px 34px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.grid .second, .third, .fourth{
+    padding: 1rem 1rem;
+    color:white;
+}
+.section6 h2 {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+}
+.section7 h2 {
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+}
+
+.section7, .section6{
+    border-bottom: 2px solid white;
+}
+
+li a{
+    color:rgb(235, 225, 225);
+    text-decoration: none;
+    list-style: none;
+    font-weight: 600;
+}
+li a:hover{
+    color:white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.socal-icon a i{ 
+    margin: 5px;
+}
+
+
+/* Section footer 6 & 7 end*/
+/* Footer end part */
+
+.section__footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+/* footer end */
+#icon:checked{
+    left: 0;
+}

@@ -1,0 +1,32 @@
+.col-1-of-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.col-1-of-4{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+.grid{
+    overflow: hidden;
+    padding: 1rem 5rem;
+    border-bottom: 1px;
+}
+
+hr{
+    width: 45%;
+    color: black;
+    box-shadow: .2px .5px #000;
+    }
+.hr-left{
+    float: left;
+    /* margin-left: 1rem; */
+    
+}
+.hr-right{
+    float: right;
+    /* margin-right: 1rem; */
+}
+.address{
+    color: white;
+}
